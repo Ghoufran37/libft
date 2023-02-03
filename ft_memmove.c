@@ -41,11 +41,12 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 /*
 int main(void)
 {
-	char str1[50];
+	char str1[50] = "welcome allllll";
 	char str2[50] = "hello every one";
 	char *ret;
 
-	ret = ft_memmove(str1, str2, 7);
-	printf("%s", ret);
+	ret = ft_memmove(str1, str2, 10);
+	printf("%s\n", ret);
+	printf("memmove %s", ret);
 	return (0);
 }*/
