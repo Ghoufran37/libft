@@ -25,3 +25,16 @@ char	*ft_strdup(const char *s1)
 		return (NULL);
 	return (ft_strcpy(cpy, (char *)s1));
 }
+
+/*
+int main(void)
+{
+	char *str;
+
+	str = "welcome";
+	printf("Before Allocation: %s\n", str);
+	printf("After  Allocation: ");
+	printf("%s\n", ft_strdup(str));
+	printf("strdup : %s\n", strdup(str));
+	return (0);
+}*/
