@@ -19,3 +19,10 @@ int	ft_isascii(int c)
 	else
 		return (0);
 }
+/*
+int main(void)
+{
+	char c = '+';
+	printf("%d", ft_isascii(c));
+	return (0);
+}*/
