@@ -27,3 +27,14 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 		return (((unsigned char *)s1)[i] - ((unsigned char *)s2)[i]);
 	return (0);
 }
+
+/*
+int main(void)
+{
+	char str1[50] = "welcome all";
+	char str2[50] = "welcome alls";
+	int n = 15;
+	printf("%d\n", ft_memcmp(str1, str2, n));
+	printf("memcpy %d", memcmp(str1, str2, n));
+	return (0);
+}*/
