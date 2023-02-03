@@ -37,3 +37,15 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
+
+/*
+int main(void)
+{
+	char str1[50];
+	char str2[50] = "hello every one";
+	char *ret;
+
+	ret = ft_memmove(str1, str2, 7);
+	printf("%s", ret);
+	return (0);
+}*/
