@@ -31,10 +31,11 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 int main(void)
 {
 	char src[50] = "helloeveryone";
-	char dest[50];
+	char dest[50] = "welcome all";
 	char *ret;
 
-	ret = ft_memcpy(dest, src, 9);
-	printf("%s", ret);
+	ret = ft_memcpy(dest, src, 7);
+	printf("%s\n", ret);
+	printf("memcpy is: %s\n", memcpy(dest, src, 7));
 	return (0);
 }*/
