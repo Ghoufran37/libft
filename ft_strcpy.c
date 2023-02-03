@@ -25,3 +25,13 @@ char	*ft_strcpy(char *des, char *src)
 	des[i] = '\0';
 	return (des);
 }
+/*
+int main(void)
+{
+	char str[50];
+
+	ft_strcpy(str, "hello all");
+	
+	printf("%s\n", str);
+	return (0);
+}*/
