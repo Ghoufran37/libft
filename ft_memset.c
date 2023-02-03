@@ -25,3 +25,15 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
+
+/*
+int main(void)
+{
+	char str[50] = "This is my library function";
+	//strcpy(str, "This is string.h library function");
+	puts(str);
+	ft_memset(str, '$', 5);
+	puts(str);
+	return (0);
+}
+*/
