@@ -25,3 +25,17 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
+/*
+#include <stdio.h>
+
+void f(unsigned int i, char *str)
+{
+	*str = *str + 1;
+}
+
+int main()
+{
+	char str1[] = "abc";
+	ft_striteri(str1, *f);
+	printf("%s\n", str1);
+}*/
